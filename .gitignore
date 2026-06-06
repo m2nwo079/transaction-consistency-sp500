@@ -1,6 +1,9 @@
-# ──────────── Data (large dataset — not tracked; see README for source) ────────────
+# ──────────── Data ────────────
+# The full dataset is large and not tracked — download it from Kaggle (see README).
+# The small illustrative sample (data/sample.csv) IS tracked, so the demo runs out of the box.
 all_stocks_5yr.csv
 data/*.csv
+!data/sample.csv
 
 # ──────────── SQLite database files (generated at runtime) ────────────
 *.db
