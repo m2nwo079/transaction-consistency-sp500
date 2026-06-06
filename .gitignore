@@ -1,0 +1,33 @@
+# ──────────── Data (large dataset — not tracked; see README for source) ────────────
+all_stocks_5yr.csv
+data/*.csv
+
+# ──────────── SQLite database files (generated at runtime) ────────────
+*.db
+*.sqlite
+*.sqlite3
+stocks.db
+
+# ──────────── Python ────────────
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+build/
+dist/
+*.egg-info/
+
+# ──────────── Virtual environments ────────────
+.venv/
+venv/
+env/
+ENV/
+
+# ──────────── Jupyter / Colab ────────────
+.ipynb_checkpoints/
+
+# ──────────── OS / editor files ────────────
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
