@@ -19,7 +19,7 @@ import pandas as pd
 # Path to the S&P 500 5-year daily dataset (all_stocks_5yr.csv).
 # NOTE: the original notebook used the Google Colab path
 #       "/content/all_stocks_5yr.csv". Point this at your local copy.
-CSV_PATH = "data/all_stocks_5yr.csv"
+CSV_PATH = "data/sample.csv"
 
 
 # ── Setup: load the data into a SQLite table (shared by both cases) ──
