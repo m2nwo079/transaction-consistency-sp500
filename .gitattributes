@@ -1,0 +1,3 @@
+# Keep the presentation HTML out of the repository language statistics,
+# so the language bar reflects the Python source rather than the slide deck.
+index.html linguist-documentation
